@@ -1,0 +1,9 @@
+.navigation {display: flex;} 
+nav>ul>li {
+    width: 239px;
+    height: 56px;
+    padding-top: 16px;
+    padding-right: 77px;
+    padding-bottom: 14px;
+    padding-left: 76px;
+}
