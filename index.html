@@ -10,63 +10,85 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">Главная</li>
-          <li class="nav__item">Фото и видео</li>
-          <li class="nav__item"><img class="nav_image" src="picture\logotype-tablet.svg.png" alt="Логотип"></li>
-          <li class="nav__item">Форма отзыва</li>
-          <li class="nav__item">Html academy</li>
+        <ul class="nav-list">
+          <li class="nav-list__item">Главная</li>
+          <li class="nav-list__item">Фото и видео</li>
+          <li class="nav-list__item">
+            <img
+              class="nav-list_image"
+              src="picture\logotype-tablet.svg.png"
+              alt="Логотип"
+            />
+          </li>
+          <li class="nav-list__item">Форма отзыва</li>
+          <li class="nav-list__item">Html academy</li>
         </ul>
       </nav>
     </header>
     <main class="main">
-      <img src="picture\back-desktop.jpg-1.png" alt="Вид Седона">
-      <img src="" alt="">
+      <img
+        class="back-desktop"
+        src="picture\back-desktop.jpg-1.png"
+        alt="Вид Седона"
+      />
+      <img src="" alt="" />
       <div class="intro">
-       <p class="intro__text">Седона- небольшой городок в Аризоне, заслуживающий большего!</p>
-       <p class="intro__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <p class="intro__text">
+          Седона- небольшой городок в Аризоне, заслуживающий большего!
+        </p>
+        <p class="intro__text">
+          Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+        </p>
       </div>
-       <div class="city">
-        <h2>Настоящий городок</h2>
-        <h3>— №1 —</h3>
-        <h3>Седона не аттракцион для туристов, там течет своя жизнь</h3>
-        <img class="city__img" src="picture\photo-city@1x.png" alt="фото города">
-      </div>
-      <ul class="">
-        <li>
-          <img src="picture\icon-house.svg.svg" alt="Дом">
-          <h2>Жилье</h2>
-          <h3>Рекомендуем пожить в настоящем мотеле, все как в кино</h3>
+      <ul class="about-list">
+        <li class="about-list__item">
+          <div class="city">
+            <h2>Настоящий городок</h2>
+            <h3>— №1 —</h3>
+            <h3>Седона не аттракцион для туристов, там течет своя жизнь</h3>
+            <img
+              class="city__img"
+              src="picture\photo-city@1x.png"
+              alt="фото города"
+            />
+          </div>
         </li>
-        <li>
-          <img src="picture\icon-burger.svg.png" alt="бургер">
-          <h2>Еда</h2>
-          <h3>Всегда заказывайте фирменный бургер, вы не разочаруетесь</h3>
+        <li class="">
+          <ul class="about-icon">
+            <li class="about-icon_item">
+              <img src="picture\icon-house.svg.svg" alt="Дом" />
+              <h2>Жилье</h2>
+              <h3>Рекомендуем пожить в настоящем мотеле, все как в кино</h3>
+            </li>
+            <li class="about-icon_item">
+              <img src="picture\icon-burger.svg.png" alt="бургер" />
+              <h2>Еда</h2>
+              <h3>Всегда заказывайте фирменный бургер, вы не разочаруетесь</h3>
+            </li>
+            <li class="about-icon_item">
+              <img src="picture\icon-gift.svg.svg" alt="подарок" />
+              <h2>Сувениры</h2>
+              <h3>Не только китайского, но и местного производства</h3>
+            </li>
+          </ul>
         </li>
-        <li>
-          <img src="picture\icon-gift.svg.svg" alt="подарок">
-          <h2>Сувениры</h2>
-          <h3>Не только китайского, но и местного производства</h3>
+        <li class="about-list__item">
+          <img src="picture\photo-bridge@1x.png" alt="фото моста" />
+          <h2>Там есть мост дьявола</h2>
+          <h3>— №2 —</h3>
+          <h3>Да, по нему можно пройти! Если вы осмелитесь, конечно</h3>
         </li>
-      </ul>
-      <div>
-        <img src="picture\photo-bridge@1x.png" alt="фото моста">
-        <h2>Там есть мост дьявола</h2>
-        <h3>— №2 —</h3>
-        <h3>Да, по нему можно пройти! Если вы осмелитесь, конечно</h3>
-      </div>
-      <ul>
-        <li>
+        <li class="about-list__item">
           <h2>Небольшая площадь</h2>
           <h3>— №3 —</h3>
           <h3>Все интересные места находяться очень близко</h3>
         </li>
-        <li>
+        <li class="about-list__item">
           <h2>Красивая дорога</h2>
           <h3>— №4 —</h3>
           <h3>Ехать в Седону из Лас Вегаса совсем не скучно!</h3>
         </li>
-        <li>
+        <li class="about-list__item">
           <h2>Мало туристов</h2>
           <h3>— №5 —</h3>
           <h3>Большинство едет в гранд каньон и толпится там</h3>
@@ -76,16 +98,16 @@
         Заинтересовались? Укажите предпологаемые даты поездки, и мы покажем вам
         лучшие предложения гостиниц в Седоне
       </p>
-      <p>Найти гостиницу</p>
-      <img src="picture\map-desktop.jpg.png" alt="карта">
+      <button class="button">Найти гостиницу</button>
+      <img src="picture\map-desktop.jpg.png" alt="карта" />
     </main>
     <footer class="footer">
       <p>#visitsedona</p>
-      <img src="picture\icon-twitter.svg.png" alt="twitter">
-      <img src="picture\icon-facebook.svg.png" alt="facebook">
-      <img src="picture\icon-youtube.svg.png" alt="youtube">
+      <img src="picture\icon-twitter.svg.png" alt="twitter" />
+      <img src="picture\icon-facebook.svg.png" alt="facebook" />
+      <img src="picture\icon-youtube.svg.png" alt="youtube" />
       <p>Разработано</p>
-      <img src="picture\htmlacademy.svg.png" alt="htmlacademy">
+      <img src="picture\htmlacademy.svg.png" alt="htmlacademy" />
     </footer>
   </body>
 </html>
