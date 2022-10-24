@@ -1,5 +1,5 @@
-.navigation {display: flex;} 
-nav>ul>li {
+.nav__list {display: flex;} 
+.nav__item {
     width: 239px;
     padding: 16px 77px 14px 76px;
 }
