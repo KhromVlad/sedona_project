@@ -16,7 +16,7 @@
           <li class="nav-list__item">
             <img
               class="nav-list_image"
-              src="picture\logotype-tablet.svg.png"
+              src="picture/logotype-tablet.svg.png"
               alt="Логотип"
             />
           </li>
@@ -26,12 +26,13 @@
       </nav>
     </header>
     <main class="main">
-      <img
-        class="back-desktop"
-        src="picture\back-desktop.jpg-1.png"
-        alt="Вид Седона"
-      />
-      <img src="" alt="" />
+      <div class="main-description">
+        <img
+          class="main-description__image"
+          src="picture/back-desktop.jpg-1.png"
+          alt="Вид Седона"
+        />
+      </div>
       <div class="intro">
         <p class="intro__text">
           Седона- небольшой городок в Аризоне, заслуживающий большего!
@@ -40,74 +41,79 @@
           Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
         </p>
       </div>
-      <ul class="about-list">
-        <li class="about-list__item">
-          <div class="city">
-            <h2>Настоящий городок</h2>
-            <h3>— №1 —</h3>
-            <h3>Седона не аттракцион для туристов, там течет своя жизнь</h3>
-            <img
-              class="city__img"
-              src="picture\photo-city@1x.png"
-              alt="фото города"
-            />
-          </div>
-        </li>
-        <li class="">
-          <ul class="about-icon">
-            <li class="about-icon_item">
-              <img src="picture\icon-house.svg.svg" alt="Дом" />
-              <h2>Жилье</h2>
-              <h3>Рекомендуем пожить в настоящем мотеле, все как в кино</h3>
-            </li>
-            <li class="about-icon_item">
-              <img src="picture\icon-burger.svg.png" alt="бургер" />
-              <h2>Еда</h2>
-              <h3>Всегда заказывайте фирменный бургер, вы не разочаруетесь</h3>
-            </li>
-            <li class="about-icon_item">
-              <img src="picture\icon-gift.svg.svg" alt="подарок" />
-              <h2>Сувениры</h2>
-              <h3>Не только китайского, но и местного производства</h3>
-            </li>
-          </ul>
-        </li>
-        <li class="about-list__item">
-          <img src="picture\photo-bridge@1x.png" alt="фото моста" />
-          <h2>Там есть мост дьявола</h2>
-          <h3>— №2 —</h3>
-          <h3>Да, по нему можно пройти! Если вы осмелитесь, конечно</h3>
-        </li>
-        <li class="about-list__item">
-          <h2>Небольшая площадь</h2>
-          <h3>— №3 —</h3>
-          <h3>Все интересные места находяться очень близко</h3>
-        </li>
-        <li class="about-list__item">
-          <h2>Красивая дорога</h2>
-          <h3>— №4 —</h3>
-          <h3>Ехать в Седону из Лас Вегаса совсем не скучно!</h3>
-        </li>
-        <li class="about-list__item">
-          <h2>Мало туристов</h2>
-          <h3>— №5 —</h3>
-          <h3>Большинство едет в гранд каньон и толпится там</h3>
-        </li>
-      </ul>
-      <p>
-        Заинтересовались? Укажите предпологаемые даты поездки, и мы покажем вам
-        лучшие предложения гостиниц в Седоне
-      </p>
+      <div class="about">
+        <ul class="about-list">
+          <li class="about-list__item">
+            <div class="city">
+              <h2>Настоящий городок</h2>
+              <p class="about__text">— №1 —</p>
+              <p class="about__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
+              <img
+                class="city__img"
+                src="picture/photo-city@1x.png"
+                alt="фото города"
+              />
+            </div>
+          </li>
+          <li class="">
+            <ul class="info">
+              <li class="info_item">
+                <img src="picture/icon-house.svg.svg" alt="Дом" />
+                <h2>Жилье</h2>
+                <p class="info__text">Рекомендуем пожить в настоящем мотеле, все как в кино</p>
+              </li>
+              <li class="info_item">
+                <img src="picture/icon-burger.svg.png" alt="бургер" />
+                <h2>Еда</h2>
+                <p class="info__text">
+                  Всегда заказывайте фирменный бургер, вы не разочаруетесь
+                </p>
+              </li>
+              <li class="info_item">
+                <img src="picture/icon-gift.svg.svg" alt="подарок" />
+                <h2>Сувениры</h2>
+                <p class="info__text">Не только китайского, но и местного производства</p>
+              </li>
+            </ul>
+          </li>
+          <li class="about-list__item">
+            <img src="picture/photo-bridge@1x.png" alt="фото моста" />
+            <h2>Там есть мост дьявола</h2>
+            <p class="about__text">— №2 —</p>
+            <p class="about__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+          </li>
+          <li class="about-list__item">
+            <h2>Небольшая площадь</h2>
+            <p class="about__text">— №3 —</p>
+            <p class="about__text">Все интересные места находяться очень близко</p>
+          </li>
+          <li class="about-list__item">
+            <h2>Красивая дорога</h2>
+            <p class="about__text">— №4 —</p>
+            <p class="about__text">Ехать в Седону из Лас Вегаса совсем не скучно!</p>
+          </li>
+          <li class="about-list__item">
+            <h2>Мало туристов</h2>
+            <p class="about__text">— №5 —</p>
+            <p class="about__text">Большинство едет в гранд каньон и толпится там</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1>Заинтересовались?</h1>
+        <p>Укажите предпологаемые даты поездки, и мы покажем вам
+        лучшие предложения гостиниц в Седоне</p>
+      </div>
       <button class="button">Найти гостиницу</button>
-      <img src="picture\map-desktop.jpg.png" alt="карта" />
+      <img src="picture/map-desktop.jpg.png" alt="карта" />
     </main>
     <footer class="footer">
       <p>#visitsedona</p>
-      <img src="picture\icon-twitter.svg.png" alt="twitter" />
-      <img src="picture\icon-facebook.svg.png" alt="facebook" />
-      <img src="picture\icon-youtube.svg.png" alt="youtube" />
+      <img src="picture/icon-twitter.svg.png" alt="twitter" />
+      <img src="picture/icon-facebook.svg.png" alt="facebook" />
+      <img src="picture/icon-youtube.svg.png" alt="youtube" />
       <p>Разработано</p>
-      <img src="picture\htmlacademy.svg.png" alt="htmlacademy" />
+      <img src="picture/htmlacademy.svg.png" alt="htmlacademy" />
     </footer>
   </body>
 </html>
