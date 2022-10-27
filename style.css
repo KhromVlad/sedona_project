@@ -1,5 +1,30 @@
-.nav-list {display: flex;} 
-.nav-list__item {
-    width: 239px;
-    padding: 16px 77px 14px 76px;
+html {
+  position: relative;
+  width: 1280px;
+  height: 2679px;
+}
+.nav {
+  position: absolute;
+  width: 1200px;
+  height: 96.43px;
+  left: 40px;
+  top: 0px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+}
+.nav-list__image {
+  position: absolute;
+  left: 42.73%;
+  right: 42.69%;
+  top: 0%;
+  bottom: 96.4%;
 }
