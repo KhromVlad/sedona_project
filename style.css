@@ -42,6 +42,7 @@
 .about-item {
   background-color: #81b3d2;
   padding: 40px;
+  text-transform: uppercase;
 }
 .about-item__text {
   font-weight: 400;
@@ -62,6 +63,7 @@
   padding: 0;
   margin: 40px 0px 40px 0px;
   text-align: center;
+  text-transform: uppercase;
 }
 .info__text {
   text-transform: uppercase;
@@ -69,6 +71,7 @@
 .about-bzz {
   background-color: #81b3d2;
   padding: 40px;
+  text-transform: uppercase;
 }
 .about-bzz__text {
   font-weight: 400;
@@ -84,6 +87,7 @@
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  text-transform: uppercase;
 }
 .about-tabl__item {
   padding: 40px;
@@ -130,4 +134,19 @@
   font-size: 21px;
   line-height: 26px;
   margin-bottom: 66px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.hashtag {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.social__img {
+  background-color: #81b3d2;
 }
