@@ -1,5 +1,5 @@
-.nav {
-  width: 1200px;
+body {
+  
 }
 .nav-list {
   display: flex;
@@ -8,16 +8,18 @@
   list-style-type: none;
   align-items: center;
   margin: 0;
+  padding: 0;
 }
 .nav-list__item {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+  align-items: center;
 }
-/*Хз как добавить обводку логотипа, нашел этот способо, но не пашет.nav-list__image {
-background-image: url(/picture/intro-triangle.svg.png);
-}*/
+.main-description__image {
+  width: 100%;
+}
 .intro {
   display: grid;
   justify-content: center;
@@ -59,25 +61,35 @@ background-image: url(/picture/intro-triangle.svg.png);
   text-align: center;
   color: #ffffff;
 }
+.about__img {
+  width: 100%;
+}
 .info {
-  width: 1200px;
+  padding: 0;
+  margin: 0;
 }
 .info-list {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+  padding: 0;
 }
 .info-list__item {
   padding: 0;
-  margin: 40px 0px 40px 0px;
+  margin: 60px;
   text-align: center;
   text-transform: uppercase;
 }
 .info__text {
   text-transform: uppercase;
 }
-.about {
-  width: 1200px;
+.info__img {
+  width: 100px;
+  height: 100px;
+}
+.info__img:first-child {
+  width: 75px; 
+  height: 72px;
 }
 .about-bzz {
   width: 320px;
@@ -94,6 +106,9 @@ background-image: url(/picture/intro-triangle.svg.png);
   font-weight: 700;
   text-align: center;
   color: #ffffff;
+}
+.about-bzz__img {
+  width: 100%;
 }
 .about-tabl {
   display: flex;
@@ -150,8 +165,7 @@ background-image: url(/picture/intro-triangle.svg.png);
   margin-bottom: 66px;
 }
 .hotel__img {
-  margin: 0;
-  padding: 0;
+  width: 100%;
 }
 .footer {
   display: flex;
