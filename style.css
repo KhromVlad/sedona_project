@@ -1,5 +1,5 @@
 body {
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nav-list {
   display: flex;
@@ -26,7 +26,7 @@ body {
   margin: 30px;
 }
 .intro__text {
-  font-family: "PT Sans";
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 21px;
   line-height: 26px;
@@ -48,7 +48,7 @@ body {
 }
 .about-item {
   background-color: #81b3d2;
-  padding: 40px;
+  padding: 50px;
   text-transform: uppercase;
 }
 .about-item__text {
@@ -92,9 +92,8 @@ body {
   height: 72px;
 }
 .about-bzz {
-  width: 320px;
   background-color: #81b3d2;
-  padding: 40px;
+  padding: 50px 70px;
   text-transform: uppercase;
 }
 .about-bzz__text {
@@ -201,3 +200,20 @@ body {
   height: 34.1px;
   margin: 15px;
 }
+@font-face {
+}
+@media(max-width: 1280px) {
+  .container {
+   width: 1170px;
+  }
+ }
+@media(max-width: 768px) {
+  .container {
+   width: 740px;
+  }
+ }
+ @media(max-width: 320px) {
+  .container {
+   width: 280px;
+  }
+ }
