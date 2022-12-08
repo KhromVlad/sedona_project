@@ -249,8 +249,8 @@ font-size: 21px;
     flex-direction: row;
   }
 }
-.about:last-child {
-  margin: 0;
+.about-list {
+  margin-top: 0;
 }
 .about-tabl {
   display: flex;
