@@ -55,14 +55,15 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  height: 56px;
 }
 .nav-list__item {
   font-family: 'PTSans', sans-serif;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+  align-items: center;
   width: 239px;
-  height: 56px;
 }
 .nav-list__image {
   z-index: 9999;
@@ -119,26 +120,29 @@ body {
 }
 .about {
   display: flex;
+
 }
 
 .about-item {
   background-color: #81b3d2;
-  padding: 50px;
   text-transform: uppercase;
+  width: 400px;
+  padding: 50px 30px 50px 30px;
 }
 .about-item__text {
   font-family: 'PTSans', sans-serif;
   font-weight: 400;
+  font-size: 14px;
   text-align: center;
   color: #ffffff;
 }
 .about-item__text:first-child {
   font-weight: 700;
-  text-align: center;
+font-size: 21px;
   color: #ffffff;
 }
 .about__img {
-  width: 100%;
+  width: auto;
 }
 .info {
   padding: 0;
@@ -173,13 +177,20 @@ body {
 }
 .info-list__item {
   padding: 0;
-  margin: 60px;
+  margin: 50px;
   text-align: center;
   text-transform: uppercase;
 }
 .info__text {
   font-family: 'PTSans', sans-serif;
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+}
+.info__text-info {
+  font-family: 'PTSans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 .info__img {
   width: 100px;
@@ -191,22 +202,27 @@ body {
 }
 .about-bzz {
   background-color: #81b3d2;
-  padding: 50px 70px;
   text-transform: uppercase;
+  width: 400px;
+  padding: 50px;
 }
 .about-bzz__text {
   font-family: 'PTSans', sans-serif;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
   text-align: center;
   color: #ffffff;
 }
 .about-bzz__text:first-child {
   font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
   text-align: center;
   color: #ffffff;
 }
 .about-bzz__img {
-  width: 100%;
+  width: auto;
 }
 @media (min-width: 320px) {
   .about-tabl {
@@ -246,10 +262,13 @@ body {
   font-family: 'PTSans', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
 }
 .about-tabl__text {
   font-family: 'PTSans', sans-serif;
   font-weight: 700;
+  font-size: 21px;
   text-transform: uppercase;
 }
 .hotel {
@@ -266,10 +285,10 @@ body {
   padding-bottom: 20px;
 }
 .hotel__text:first-child {
-  font-family: "PT Sans";
+  font-family: 'PTSans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 26px;
   text-align: center;
 }
@@ -296,18 +315,19 @@ body {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
+  padding-left: 105px;
 }
 .hashtag__text {
   font-family: 'PTSans', sans-serif;
 }
 .social__img {
   background-color: #81b3d2;
-  padding: 10px;
-  width: 10px;
-  height: 10px;
+  padding: 18px;
+  width: 15px;
+  height: 15px;
 }
 @media (min-width: 320px) {
   .container-footer {
@@ -317,6 +337,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  height: 120px;
   }
 }
 @media (min-width: 768px) {
@@ -327,6 +348,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 120px;
   }
 }
 @media (min-width: 1280px) {
@@ -337,10 +359,10 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 120px;
   }
 }
 .footer {
-  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -349,6 +371,7 @@ body {
 }
 .academy {
   display: flex;
+  text-transform: uppercase;
 }
 .academy__img {
   width: 26.9px;
@@ -357,4 +380,7 @@ body {
 }
 .academy__text {
   font-family: 'PTSans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 15px;
 }
